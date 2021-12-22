@@ -123,15 +123,8 @@ public class CPCS324_Phase2 {
         }
     
  //  FloyedWarshall algorithm 
-    public static int [][] FloyedWarshall (int Graph [][] ,int Vnumber){
-        //distant matrix
-        int[][] distanceMatrix=new int [Vnumber][Vnumber];
+    public static int [][] FloyedWarshall (int distanceMatrix [][] ,int Vnumber){
         int i, j, k ,x=0;
-        //copy the original matrix to distance matrix
-           for (i = 0; i < Vnumber; i++){
-                for (j = 0; j < Vnumber; j++)
-                distanceMatrix[i][j] = Graph[i][j];
-           }
            
             //  FloyedWarshall algorithm 
            for (k = 0; k < Vnumber; k++){
