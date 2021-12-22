@@ -237,10 +237,11 @@ public class CPCS324_Phase2 {
                 //get the closest vertex
 		int closestVertex = getClosestVertex(distance, visited);
               
-		//mark as visited
+		
                 if(closestVertex ==-1 )
                     break;
-                
+		
+                //mark as visited
 		visited[closestVertex] = true;
 		for(int j=0; j<Vnumber; j++){
                         
