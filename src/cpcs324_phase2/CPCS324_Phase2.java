@@ -305,8 +305,8 @@ public class CPCS324_Phase2 {
         if (currentVertex == -1)
             return;
         printPath(parents[currentVertex], parents);
-        //System.out.print(vertexLabel[currentVertex] + " ");
-        System.out.print(currentVertex + " ");
+        System.out.print(vertexLabel[currentVertex] + " ");
+       // System.out.print(currentVertex + " ");
     }
     
     
